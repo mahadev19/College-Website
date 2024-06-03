@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Informatics College</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Keywords" content="Vilasrao Deshmukh Foundation VDF School of Engineering & Technology Latur">
+  <meta name="author" content="Mass_Grouop">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="javascript/js.js="></script>
+<style> 
+  h1 {
+  font-size: 30px; /* Adjust the font size as desired */
+  background-color:white; /* Set the background color */
+  padding: 01px;
+  }
+  .floating-line {
+  position: relative;
+  overflow: hidden;
+  height: 35px; /* Adjust the height as needed */
+}
+
+.note {
+  position: absolute;
+  top: 0;
+  left: 100%; /* Start the note off-screen on the left */
+  width: 600px; /* Adjust the width as needed */
+  height: 100%;
+  line-height: 30px; /* Match the height of the parent container */
+  padding: 0; /* Add padding around the note content */
+  animation: floatToRight 10s linear infinite; /* Animation properties */
+}
+
+.note p {
+  margin: 0; /* Remove the default margin */
+  background: none; /* Remove the background */
+  color: #fd1504;
+}
+
+@keyframes floatToRight {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0; /* Move the note to the right */
+  }
+}
+mahadev-p {
+    background-size: contain;
+    background-size: contain; background-repeat: no-repeat;
+    background-size: 25%;
+    background-size: 150px;
+    background-size: cover;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer img {
+    width: auto;
+    height: 350px;
+    padding-left: 50px;
+    
+  }
+  img {
+      box-shadow: 12px 12px 7px rgba(0, 0 , 0, 0.7);
+    }
+
+    
+</style>
+</head>
+
+<body class="body">
+
+  <body class="mahadev-p" style="background-image: url(gallary/11.jpg); background-size:cover">
+  </body>
+  <header class="mainheader">
+    <h1 style="font-family: sans-serif;color:#fd8904;text-align: center; "> <a href="index.html"> Vilasrao Deshmukh Foundation Group of institutions, Latur</a> </h1>
+    <img src="images/logo.png">
+    <content id="search">
+      <form>
+        <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+      </form>
+    </content>
+    <div class="floating-line">
+      <div class="note">
+        <p>Note * This website belongs to only for Computer department.</p>
+      </div>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="download.html">STUDY HUB</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="faculty.html">FACULTY</a></li>
+        <li><a href="gallary/page.html">GALLARY</a></li>
+        <li><a href="Others.html">ABOUT</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <br>
+<footer>
+  <img src="images/vilasrao_d.png" alt="">
+  <img src="download/dr. buke sir.png" alt=""
+
+ </footer>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("iambrpslides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+    }
+  </script>
+  <br>
+
+  <script type="text/javascript">
+    document.title = "Home";
+  </script>
+
+
+  <script src="scripts/slider.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+    padding: 3px;
+    cursor: pointer; /* Added this line to show pointer cursor on images */
+  }
+  
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #overlay-image {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  

@@ -1,0 +1,25 @@
+a{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: #31efd9;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 0, 0); 
+    text-decoration-color: rgb(45, 205, 53);
+  }
+details{
+    
+    font-size: 25px;
+    color:#00ccff;
+    text-align: center;
+}
+body{
+    font-size: 25px;
+    color: white;
+    background-image: url(bg.jpg);
+}
+
+  
+  
+  

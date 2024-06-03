@@ -1,0 +1,37 @@
+/* style.css */
+
+body {
+    background-image: url(img//rm373batch13-085.jpg);
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10PX;
+    color: azure;
+}
+
+header, nav, section, footer {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+header {
+    background-color:#6495AD;
+    color: #b27f7f;
+}
+
+
+
+section {
+    border-bottom: 1px solid #d89494;
+}
+
+footer {
+    background-color: #311a1a;
+    color: #37e6e6;
+    text-align: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
